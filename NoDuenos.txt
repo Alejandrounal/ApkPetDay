@@ -1,0 +1,4 @@
+maria;lamamaria;123456;123;12;call;1231;ogo
+pedri;alejandro;123456;1235;25;la campina;13355;pof@fsdf
+maria;lapiedra;123456;423135;65;pop;3125;wef
+alejandro;alejo;123456789;1032468815;25;Calle 126 NO 130;4654654;og2189@gmail.com

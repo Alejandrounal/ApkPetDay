@@ -1,0 +1,2 @@
+rufo;perro;5;20;jugar;morder;ninguno;1234
+Paquito;Perro;3;15;Comer;Comer;Comer;123456789

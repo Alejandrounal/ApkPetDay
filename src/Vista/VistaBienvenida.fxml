@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="375.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apk.VistaBienvenidaController">
+   <children>
+      <ImageView fitHeight="385.0" fitWidth="601.0" layoutX="-7.0" layoutY="-8.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Imagenes/textura_01_by_gailem.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="96.0" layoutY="14.0" lineSpacing="20.0" text="! Bienvenido a PET DAY! " underline="true">
+         <font>
+            <Font size="32.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Label>
+      <Label layoutX="17.0" layoutY="78.0" text="Pet Day es una aplicación creada por amantes de los animales  ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="11.0" layoutY="104.0" text="la cual tiene como finalidad que puedas encontrar el cuidador ideal ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="129.0" text="para tu mascota mientras trabajas o cumples con tus que haceres ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="154.0" text="diarios . ">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="18.0" layoutY="182.0" text="Además sino tienes emascota es tu oportuniad de ganar dinero">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="207.0" layoutY="218.0" text="Registrate como">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button blendMode="MULTIPLY" layoutX="47.0" layoutY="332.0" mnemonicParsing="false" onAction="#regsitroMascota" prefHeight="30.0" prefWidth="123.0" text="Tienes mascota">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <Button blendMode="MULTIPLY" layoutX="371.0" layoutY="334.0" mnemonicParsing="false" onAction="#registroNoMascota" text="No tienes mascota">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Button>
+      <ImageView fitHeight="106.0" fitWidth="167.0" layoutX="41.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/parecido2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="112.0" fitWidth="123.0" layoutX="372.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/09-2-Pulseras-para-mascotas-y-sus-dueños.jpg" />
+         </image>
+      </ImageView>
+      <Circle blendMode="LIGHTEN" fill="#c38e33" layoutX="568.0" layoutY="72.0" radius="24.0" stroke="#750a0a" strokeLineCap="BUTT" strokeType="INSIDE" />
+      <ImageView fitHeight="375.0" fitWidth="80.0" layoutX="521.0" layoutY="-3.0" pickOnBounds="true">
+         <image>
+            <Image url="@../Imagenes/alargado.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="457.0" prefWidth="682.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apk.NoPropietarioController">
+   <children>
+      <Pane prefHeight="457.0" prefWidth="682.0">
+         <children>
+            <ImageView fitHeight="457.0" fitWidth="694.0" layoutX="-5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/perro-negro-foto-Fred-Levy-3.jpg" />
+               </image></ImageView>
+            <Text fill="WHITE" layoutX="11.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Has elegido la opción no propietario, por ende eres paseador/cuidador!" wrappingWidth="659.9267578125">
+               <font>
+                  <Font name="Showcard Gothic" size="26.0" />
+               </font>
+            </Text>
+            <Text fill="#f2eded" layoutX="418.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido a PetDay, como cuidador/paseador podrá acceder a la opción de pasear o cuidar mascota, a continuación deberá llenar datos personales, pero antes debe aceptar los terminos y condiciones de nuestra plataforma. ¡Gracias por elegir nuestra App! y esperamos tengas una buena experiencia." wrappingWidth="241.720703125">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Text>
+            <Text fill="#fff7f7" layoutX="418.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Acepto los">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Text>
+            <Hyperlink layoutX="495.0" layoutY="328.0" text="terminos y condiciones">
+               <font>
+                  <Font name="Symbol" size="17.0" />
+               </font>
+            </Hyperlink>
+            <CheckBox layoutX="420.0" layoutY="360.0" mnemonicParsing="false" text="Clic aquí" textFill="#f5f4f4">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </CheckBox>
+            <Button layoutX="587.0" layoutY="418.0" mnemonicParsing="false" text="Siguiente" />
+            <Button layoutX="462.0" layoutY="418.0" mnemonicParsing="false" text="Atrás" />
+         </children></Pane>
+   </children>
+</AnchorPane>

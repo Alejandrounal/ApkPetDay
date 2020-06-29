@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="Ventana" prefHeight="375.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apk.Escena1Controller">
+   <children>
+      <ImageView fitHeight="394.0" fitWidth="602.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imagenes/Fondo-de-pantalla-Perros-03.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="55.0" layoutY="39.0" text="PET DAY" textFill="#ab1414">
+         <font>
+            <Font name="Showcard Gothic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="112.0" text="Inicia Sesión ">
+         <font>
+            <Font name="Symbol" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="41.0" layoutY="163.0" text="Usuario">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="campoUsuario" layoutX="152.0" layoutY="166.0" />
+      <Label layoutX="41.0" layoutY="201.0" text="Conrtraseña">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="campoContrasena" layoutX="152.0" layoutY="204.0" />
+      <Label layoutX="41.0" layoutY="300.0" text="¿No tienes aun una cuenta? ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="hipervinculoResgistro" layoutX="216.0" layoutY="296.0" onAction="#cambiarRegistro" text="Registrate! ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Hyperlink>
+      <Button layoutX="120.0" layoutY="244.0" mnemonicParsing="false" onAction="#ingresarDueno" text="Ingresar dueño">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="256.0" layoutY="244.0" mnemonicParsing="false" onAction="#ingresarCuidador" text="Ingresar Cuidador">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

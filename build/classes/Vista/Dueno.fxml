@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="apk.DuenoController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="635.0">
+         <children>
+            <ImageView fitHeight="400.0" fitWidth="665.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagenes/fondo-de-pantalla-perro-en-fondo-negro_1680x1050_961.jpg" />
+               </image></ImageView>
+            <Label layoutX="14.0" layoutY="21.0" text="¡HAS ELEGIDO LA OPCIÓN DE DUEÑO!" textFill="#fffefe">
+               <font>
+                  <Font name="Showcard Gothic" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="6.0" layoutY="353.0" text="Para continuar debe aceptar los " textFill="#fcfcfc">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="234.0" layoutY="349.0" text="terminos y condiciones.">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Hyperlink>
+            <CheckBox layoutX="430.0" layoutY="357.0" mnemonicParsing="false" />
+            <Text fill="#f8f3f3" layoutX="12.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenido a PetDay, como dueño podrá acceder a la opción de prestar su perro para pasear, a continuación deberá llenar datos personales, así como los de su mascota, pero antes debe aceptar los terminos y condiciones de nuestra plataforma. ¡Gracias por elegir nuestra App! y esperamos tengas una buena experiencia." wrappingWidth="611.892578125">
+               <font>
+                  <Font name="Symbol" size="19.0" />
+               </font>
+            </Text>
+            <Button layoutX="555.0" layoutY="353.0" mnemonicParsing="false" text="Continuar" />
+            <Button layoutX="494.0" layoutY="353.0" mnemonicParsing="false" text="Atras" />
+         </children></Pane>
+   </children>
+</AnchorPane>

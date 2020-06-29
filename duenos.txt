@@ -1,0 +1,3 @@
+alejandro;oscar;123456;10324;12;gaitana;231321;foo@fffsd
+fabian ;fabito;123456;1234;35;caller ;13256;ogor@gofm
+Alejandro;alejandro;123456789;123456789;24;calle 787878;13246589;alejandro@unal.com
